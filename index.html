@@ -4,14 +4,24 @@
 </head>
 
 <style>
-  centered-logo {
+  .centered-logo {
+      margin: 200px 50px 50px 450px;
+      display: block;
+      vertical-align: middle;
+  }
+
+  .centered-search {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
+    margin: auto;
   }
 </style>
 
 <body>
   <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" class="centered-logo">
+
+  <form class="centered-search">
+    <input type="text" placeholder="Search...">
+    <button type="submit">Submit</button>
+  </form>
 </body>
